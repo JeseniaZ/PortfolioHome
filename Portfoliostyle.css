@@ -1,0 +1,146 @@
+/*navigation styles */
+.logo { 
+    background: white;
+    height: 230px;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.nav {
+    display: flex;
+    background-color: #545155;
+    padding: 20px;
+}
+
+ .left, .center, .right {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .left, .right {
+    width: 25%;
+  }
+  .center {
+    width: 50%;
+  }
+
+  .center a {
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    font-family:Helvetica, Ariel;
+  }
+
+  .right button {
+    background-color: #B98AC9;
+    color:#ECD7F3;
+    font-size: 16px;
+    font-family: Helvetica, Ariel;
+    padding: 15px;
+    width: 50%;
+  }
+
+  .left button {
+    background-color: #ECD7F3;
+    color: #B98AC9;
+    font-size: 16px;
+    padding: 15px;
+    width: 50%;
+  }
+
+  /* text css above hero image*/
+  .heroimage {
+    height: 100vh;
+    column-gap: url();
+    background-size: cover;
+    position: relative;
+  }
+
+  .hero_title {
+    font-size: 4.5rem;
+    font-family: "https://www.dafontfree.io/download/magison/?wpdmdl=92626&refresh=62f591eb39a181660260843&ind=1654935035211&filename=Magison-Font.zip", Helvetica, Arial;
+  }
+
+  .hero_desc {
+    font-size: 2rem;
+    font-family: "https://www.dafontfree.io/download/magison/?wpdmdl=92626&refresh=62f591eb39a181660260843&ind=1654935035211&filename=Magison-Font.zip", Helvetica, Arial;
+  }
+
+  .hero_desc {
+    font-size: 2rem;
+  }
+
+  .hero-text {
+    text-align:center;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+  }
+  /* Column styles */
+.column {
+  display: flex;
+  height: 1200px;
+  width: 800px;
+  flex-direction: column;
+  margin: auto;
+}
+  .case_study1, .case_study2, .case_study3 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 20px;
+  }
+  .case_study1 {
+    margin-top:20px;
+    background-image: url("../images/steak.png");
+    background-repeat: no-repeat;
+    background-position: center;
+  
+  }
+  .case_study2 {
+    background-image: url("../images/soup.png");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .case_study3 {
+    background-image: url("../images/cheesecake.png");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .text {
+    background: white;
+    width: 100%;
+    padding: 20px 40px;
+    color: #545155;
+  }
+  .text p {
+    color: #545155;
+    font-family: "https://www.dafontfree.io/download/magison/?wpdmdl=92626&refresh=62f591eb39a181660260843&ind=1654935035211&filename=Magison-Font.zip", Helvetica;
+  }
+  .text h1 {
+    font-family:"https://www.dafontfree.io/download/magison/?wpdmdl=92626&refresh=62f591eb39a181660260843&ind=1654935035211&filename=Magison-Font.zip", Helvetica; ;
+  }
+/* social media icons styling */
+.social-icons {
+  font-size: 36px;
+  cursor: pointer;
+  }
+  .fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
+    color: #ADBB8D;
+  }
+  .fab{
+    color:#B98AC9
+  }
+  /* footer styling */
+#footer {
+  background-color: #545155;
+  text-align: center;
+}
